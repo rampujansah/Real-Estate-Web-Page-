@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif Montserrat;
+}
+
+.first-head ul{
+    display: flex;
+    
+    
+}
+.first-head ul li{
+    margin: 5px 0px 0px 80px;
+    list-style: none;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    height: 60px;
+    width: 100%;
+
+
+}
+.first-icon{
+    margin: 5px 50px 5px 0px;
+    
+}
+.first-icon i{
+    padding: 10px ;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.192);
+    border-radius: 50%;
+
+}
+.aa i{
+    padding: 15px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-right: 10px;
+
+}
+.list li{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid black transparent;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+    
+}
+.list li img{
+    margin-right: 40px;
+}
+.list li p{
+    margin-left: 75px;
+    color: rgba(128, 128, 128, 0.443);
+    line-height: .5px;
+}
+.list{
+    padding: 7px;
+    width: 310px;
+    margin-left: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.row{
+    position: relative
+}
+.featured-icon{
+    background-color: #f35525;
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-5%;
+    left: -2%;
+    
+   
+    
+}
+.cc{
+    position: relative;
+    margin-bottom: 300px;
+}
+.dd{
+    position: absolute;
+    top:50%;
+    left:14%
+
+}
+.ee{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: #f35525;
+    font-size: 20px;
+}
+.ff{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    color: whitesmoke;
+
+}
+.gg{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    
+    border: 1px solid black transparent;
+    position: relative;
+   
+}
+.count{
+    width: 270px;
+    height: 96px;
+    background-color: rgba(255, 192, 203, 0.705);
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    
+    border-radius: .75rem;
+    position: relative;
+    
+    
+}
+.count h2{
+    padding: 2rem;
+    font-weight: 700;
+    color: rgb(234, 118, 76);
+}
+.count .pra{
+    font-family: sans-serif;
+    line-height: .5rem;
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.round-one{
+    position:absolute ;
+    top: -27%;
+    left:27%;
+    width: 3rem;
+    height: 3rem;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.round-two{
+    position:absolute ;
+    top: -27%;
+    left:60%;
+    width: 3rem;
+    height: 3rem;
+    background-color: orangered;
+    border-radius: 50%;
+
+}
+.round-three{
+    position:absolute ;
+    top: -27%;
+    left:94%;
+    width: 3rem;
+    height: 3rem;
+    background-color: orangered;
+    border-radius: 50%;
+}
+.list-group{
+    border: 1px solid black transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding: .5rem; */
+   border-radius: 1rem;
+   
+}
+.list-group-item{
+    display: flex;
+    
+   justify-content: space-around;
+   
+}
+.list-group-item p{
+    color: rgba(128, 128, 128, 0.712);
+    
+}
+.list-group-item h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.hh{
+    background-color: gray;
+}
+
+.contact{
+    position: relative;
+}
+.us{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.google-map{
+    position: absolute;
+    top: 50%;
+    left:5%;
+    border: 1px solid black transparent;
+    border-radius: 2rem;
+}
+.form{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    background-color: white;
+    width: 28rem;
+    border: 1px solid black transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    
+    
+}
+.form1{
+    position: absolute;
+    top: 135%;
+    left: 100%;
+
+}
+.google-map iframe{
+    border-radius: 1rem;
+    position: relative;
+    
+}
+
+
+
+
+.touch-connect{
+    
+
+    border: 1px solid black transparent;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 1rem;
+    height: 6rem;
+    width: 18rem;
+    /* text-align: center; */
+    
+    
+    
+
+    
+    
+
+   
+     
+}.touch-connect img{
+    float: left;
+    margin: 1rem ;
+    text-align: center;
+    
+}
+
+.ii{
+    margin-left: -9rem;
+    
+}
+
+.connect{
+    display: flex;
+    justify-content: space-between;
+    
+
+    margin-top: 2rem;
+    
+    
+    
+
+}
